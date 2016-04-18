@@ -77,5 +77,7 @@ if __name__ == '__main__':
         with logtime("Save test data in the CSV file"):
             test_data.to_csv(PATH_TO_SUBMISSION_FILE,
                              columns=['id', 'cuisine'], index=False)
+            logging.info("The CSV file has been saved in the {} file"
+                         "".format(PATH_TO_SUBMISSION_FILE))
 
     logging.info("Training finished")

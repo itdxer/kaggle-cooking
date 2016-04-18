@@ -22,6 +22,8 @@ $ python train_model.py
 $ python train_model.py --mode submission
 ```
 
+The main submission file you can find in the `data` directory.
+
 To make your result reproducible you need to add ``--reproducible`` flag
 
 ```bash

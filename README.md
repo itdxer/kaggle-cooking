@@ -2,19 +2,21 @@
 
 The main information about the competition you can find [here](https://www.kaggle.com/c/whats-cooking)
 
-1. Install Python's requirements
+## Instruction on how to use
+
+* Install Python's requirements
 
 ```bash
 $ pip install -r requirements.txt
 ```
 
-2. Train classifier
+* Train classifier
 
 ```bash
 $ python train_model.py
 ```
 
-3. Create submission file
+* Create submission file
 
 ```bash
 $ python train_model.py --mode submission

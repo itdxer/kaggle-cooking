@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "cuisine": "greek",
+    "ingredients": [
+      "apples",
+      "olives",
+      "tomatoes",
+      "salt"
+    ]
+  },
+  {
+    "id": 2,
+    "cuisine": "italian",
+    "ingredients": [
+      "purple onion"
+    ]
+  }
+]
